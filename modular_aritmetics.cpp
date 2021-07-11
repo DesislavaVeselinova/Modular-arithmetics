@@ -1,7 +1,7 @@
 #include "modular_aritmetics.h"
 #include <iostream>
 
-//1.зад:
+//1
 int fillArray(int* arr, unsigned n)
 {
 	for (unsigned i = 0; i < n; i++) 
@@ -11,13 +11,13 @@ int fillArray(int* arr, unsigned n)
 	return 0;
 }
 
-//2.зад:
+//2
 int add(unsigned n, int a, int b)
 {
 	return (a + b) % n;
 }
 
-//3.зад:
+//3
 int sub(unsigned n, int a, int b)
 {
 	const unsigned remainder_a = a % n;
@@ -25,7 +25,7 @@ int sub(unsigned n, int a, int b)
 	return (remainder_a + (n - remainder_b)) % n;
 }
 
-//4.зад:
+//4
 int multiply(unsigned n, int a, int b)
 {
 	return (a * b) % n;
@@ -45,7 +45,7 @@ int printRing(int* arr, unsigned n)
 	return 0;
 }
 
-//5.зад:
+//5
 int recNumbers(int** arr, unsigned n)
 {
 	int res = 0;
@@ -79,14 +79,14 @@ void printRecNum(int** arr, unsigned n)
 	std::cout << std::endl;
 }
 
-//6.зад:
+//6
 int recElement(int** arr, unsigned n, int elem)
 {
 	std::cout << arr[1][elem];
 	return 0;
 }
 
-//7.зад:
+//7
 unsigned bezoutCoeficient(unsigned n, int elem)
 {
 	long long s1 = 1;
@@ -113,7 +113,7 @@ unsigned bezoutCoeficient(unsigned n, int elem)
 	return y % m;
 }
 
-//8.зад:
+//8
 int Division(int** arr,unsigned n, int a, int b)
 {
 	int p = arr[1][b];
@@ -124,7 +124,7 @@ int Division(int** arr,unsigned n, int a, int b)
 	return (a * p) % n;
 }
 
-//9.зад: 
+//9 
 int fastPower1(unsigned n, unsigned base, unsigned pow)
 {
 	int k = 0;
@@ -146,7 +146,7 @@ int fastPower1(unsigned n, unsigned base, unsigned pow)
 	return res;
 }
 
-//10.зад:
+//10
 int fastPower2(unsigned n, unsigned base, unsigned pow)
 {
 	unsigned res = 0;
@@ -164,7 +164,7 @@ int fastPower2(unsigned n, unsigned base, unsigned pow)
 	return pow_res;
 }
 
-//11.зад:
+//11
 int isPrimRoot(int* arr, unsigned n, int g)
 {
 	unsigned cnt = 0;
@@ -195,7 +195,7 @@ int isPrimRoot(int* arr, unsigned n, int g)
 	return  0;
 }
 
-//14.зад:
+//14
 int residualField(unsigned n)
 {
 	unsigned cnt = 0;
