@@ -41,14 +41,14 @@ int main() {
 		cout << "Choose one option from the menu: ";
 		cin >> menu;
 
-		//1.зад:
+		//1
 		if (menu == 1) 
 		{
 			cout << "The set of the residual ring of modul " << n << " is: ";
 			printRing(ring, n);
 		}
 
-		//2.зад:
+		//2
 		if (menu == 2) 
 		{
 			int a, b;
@@ -60,7 +60,7 @@ int main() {
 			cout << add(n, a, b) << endl;
 		}
 
-		//3.зад:
+		//3
 		if (menu == 3) 
 		{
 			int a, b;
@@ -72,7 +72,7 @@ int main() {
 			cout << sub(n, a, b) << endl;
 		}
 
-		//4.зад:
+		//4
 		if (menu == 4) 
 		{
 			int a, b;
@@ -84,14 +84,14 @@ int main() {
 			cout << multiply(n, a, b) << endl;
 		}
 
-		//5.зад:
+		//5
 		if (menu == 5) 
 		{
 			recNumbers(isDivisor, n);
 			printRecNum(isDivisor, n);
 		}
 
-		//6.зад:
+		//6
 		if (menu == 6) 
 		{
 			recNumbers(isDivisor, n);
@@ -106,7 +106,7 @@ int main() {
 			cout << endl;
 		}
 
-		//7.зад:
+		//7
 		if (menu == 7) 
 		{
 			int _rel;
@@ -119,7 +119,7 @@ int main() {
 			cout << endl << bezoutCoeficient(n, _rel) << endl;
 		}
 
-		//8.зад:
+		//8
 		if (menu == 8) 
 		{
 			int a, b;
@@ -132,7 +132,7 @@ int main() {
 			cout << Division(isDivisor, n, a, b) << endl;
 		}
 
-		//9.зад:
+		//9
 		if (menu == 9) 
 		{
 			unsigned base, pow;
@@ -144,7 +144,7 @@ int main() {
 			cout << fastPower1(n, base, pow) << endl;
 		}
 
-		//10.зад:
+		//10
 		if (menu == 10) 
 		{
 			unsigned base, pow;
@@ -156,7 +156,7 @@ int main() {
 			cout << fastPower2(n, base, pow) << endl;
 		}
 
-		//11.зад:
+		//11
 		if (menu == 11) 
 		{
 			int g;
@@ -168,7 +168,7 @@ int main() {
 			isPrimRoot(prime, n, g);
 		}
 
-		//14.зад:
+		//14
 		if (menu == 14) 
 		{
 			residualField(n);
